@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header{
+    width: 100vw;
+    height: 8vh;
+    background-color: rgba(31, 28, 28, 0.932);
+    color: white;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+}
+
+.header h1{
+    margin-right: 80px;
+}
+
+.navbar{
+    background-color: rgb(11, 10, 10);
+    line-height: 10vh;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    color: azure;
+    font-family: 'Bree Serif', serif;
+    
+}
+
+.navbar ul li{
+   list-style:  none;
+   padding-right: 30px;
+   padding-left: 10px;
+   font-size: 1.8rem;
+}
+
+.navbar ul li:hover{
+   cursor: pointer;
+   border-radius: 10px;
+   background-color: rgb(35, 210, 245);
+   transition: 1s ease-in-out;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown{
+    display: none;
+}
+
+.dropdown li{
+    display: block;
+}
+
+.navbar ul li:hover .dropdown {
+    display: block;
+    position: absolute;
+    background-color: rgb(19, 17, 17);
+    margin-left: -10px;
+}
+
+.navbar ul li:hover .submenu{
+    display: block;
+}
+
+.footer{
+    height: 5vh;
+    background-color: black;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+}
+
+/*  Ad Animations */
+
+#offers{
+    margin-top: 12px;
+    /* margin-left: 10%; */
+    /* background-color: gray; */
+}
+
+#offers p{
+    border: 2px solid steelblue;
+    margin-left: 10%;
+    width: 80%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: offer_ani;
+    animation-duration: 20s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes offer_ani {
+    0%{
+        background-image: url('/Images/Animation/ani1.jpg');
+        width: 80%;
+    }
+    25%{
+        background-image: url('/Images/Animation/ani2.png');
+        width: 80%;
+    }
+    50%{
+        background-image: url('/Images/Animation/ani3.jpg');
+        width: 80%;
+    }
+    75%{
+        background-image: url('/Images/Animation/ani4.jpg');
+        width: 80%;
+    }
+    100%{
+        background-image: url('/Images/Animation/ani5.jpg');
+        width: 80%;
+    }
+    
+}
+
