@@ -1,8 +1,9 @@
-h2{
+h2 {
     color: rgba(1, 1, 77, 0.866);
+    font-size: 1rem;
 }
 
-section{
+section {
     width: 80%;
     height: 80%;
     border: 1px solid black;
@@ -10,9 +11,10 @@ section{
     top: 10%;
     margin-left: 10%;
     overflow-y: auto;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.7);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
 }
-aside{
+
+aside {
     margin: 0;
     width: 50%;
     height: 100%;
@@ -21,32 +23,34 @@ aside{
     top: 0;
 }
 
-aside img{
+aside img {
     width: 100%;
     height: 100%;
-    /* background-size: auto; */
 }
 
-#form-details{
+#form-details {
     width: 40%;
     padding: 5%;
     height: auto;
 }
-#form-details input{
+
+#form-details input {
     margin: 5px;
     border: none;
     border-bottom: 1px solid black;
 }
-.patient-details input{
+
+.patient-details input {
     width: 45%;
 }
 
-#button{
+#button {
     position: absolute;
     bottom: 2%;
     left: 44.5%;
 }
-#button input{
+
+#button input {
     background-color: rgb(21, 18, 17);
     border: 1px solid rgb(0, 255, 76);
     color: coral;
@@ -54,12 +58,3 @@ aside img{
     margin: 10px;
     padding: 5px 8px;
 }
-
-/* @media screen and(max-width: 550px) {
-    #special{
-        width: 50%; 
-        font-size: .6rem;
-    }
-    
-}
- */
