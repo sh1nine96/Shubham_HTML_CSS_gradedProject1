@@ -45,7 +45,7 @@
 .navbar ul li:hover {
     cursor: pointer;
     border-radius: 10px;
-    background-color: aqua;
+    background-color: rgb(2, 128, 128);
     transition: 0.5s ease-in-out;
 }
 
